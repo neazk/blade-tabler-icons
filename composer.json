@@ -1,8 +1,8 @@
 {
-    "name": "secondnetwork/blade-tabler-icons",
+    "name": "neazk/blade-tabler-icons",
     "description": "A package to easily make use of tabler-icons in your Laravel Blade views.",
     "keywords": ["Blade", "tabler-icons", "Laravel"],
-    "homepage": "https://github.com/secondnetwork/blade-tabler-icons",
+    "homepage": "https://github.com/neazk/blade-tabler-icons",
     "license": "MIT",
     "authors": [
         {
