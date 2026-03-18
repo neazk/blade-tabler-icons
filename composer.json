@@ -1,12 +1,16 @@
 {
     "name": "neazk/blade-tabler-icons",
     "description": "A package to easily make use of tabler-icons in your Laravel Blade views.",
-    "keywords": ["Blade", "tabler-icons", "Laravel"],
+    "keywords": [
+        "Blade",
+        "tabler-icons",
+        "Laravel"
+    ],
     "homepage": "https://github.com/neazk/blade-tabler-icons",
     "license": "MIT",
     "authors": [
         {
-            "name": "Andreas Farah"
+            "name": "ibrahim adil"
         }
     ],
     "require": {
@@ -20,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "secondnetwork\\TablerIcons\\": "src"
+            "neazk\\TablerIcons\\": "src"
         }
     },
     "autoload-dev": {
@@ -31,7 +35,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "secondnetwork\\TablerIcons\\BladeTablerIconsServiceProvider"
+                "neazk\\TablerIcons\\BladeTablerIconsServiceProvider"
             ]
         }
     },

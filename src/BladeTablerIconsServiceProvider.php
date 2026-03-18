@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace secondnetwork\TablerIcons;
+namespace neazk\TablerIcons;
 
 use BladeUI\Icons\Factory;
 use Illuminate\Contracts\Container\Container;
@@ -17,24 +17,24 @@ final class BladeTablerIconsServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-tabler-icons', []);
 
-            $factory->add('tabler', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
+            $factory->add('tabler', array_merge(['path' => __DIR__ . '/../resources/svg'], $config));
         });
     }
 
     private function registerConfig(): void
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/blade-tabler-icons.php', 'blade-tabler-icons');
+        $this->mergeConfigFrom(__DIR__ . '/../config/blade-tabler-icons.php', 'blade-tabler-icons');
     }
 
     public function boot(): void
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../resources/svg' => public_path('vendor/blade-tabler-icons'),
+                __DIR__ . '/../resources/svg' => public_path('vendor/blade-tabler-icons'),
             ], 'blade-tabler-icons');
 
             $this->publishes([
-                __DIR__.'/../config/blade-tabler-icons.php' => $this->app->configPath('blade-tabler-icons.php'),
+                __DIR__ . '/../config/blade-tabler-icons.php' => $this->app->configPath('blade-tabler-icons.php'),
             ], 'blade-tabler-icons-config');
         }
     }

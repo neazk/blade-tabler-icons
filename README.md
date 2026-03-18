@@ -2,9 +2,9 @@
 
 ![blade-tabler-icons](https://user-images.githubusercontent.com/13808106/190656285-ced1289f-b1d3-4e10-bc1a-728023633cc1.png)
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/secondnetwork/blade-tabler-icons.svg?style=for-the-badge&labelColor=eb4432&color=1A2A2C)](https://github.com/secondnetwork/blade-tabler-icons)
+[![Latest Stable Version](https://img.shields.io/packagist/v/neazk/blade-tabler-icons.svg?style=for-the-badge&labelColor=eb4432&color=1A2A2C)](https://github.com/neazk/blade-tabler-icons)
 [![PHP 8.2](https://img.shields.io/badge/v8.2-999999?style=for-the-badge&label=PHP&labelColor=777BB4&color=1A2A2C)](https://php.com)		
-[![License](https://img.shields.io/github/license/secondnetwork/blade-tabler-icons?style=for-the-badge)](https://github.com/secondnetwork/blade-tabler-icons/blob/main/LICENSE.md)
+[![License](https://img.shields.io/github/license/neazk/blade-tabler-icons?style=for-the-badge)](https://github.com/neazk/blade-tabler-icons/blob/main/LICENSE.md)
 
 A package to easily make use of [tabler-icons](https://github.com/tabler/tabler-icons) in your Laravel Blade views.
 
@@ -22,7 +22,7 @@ This repository check for a new Icons Release every week with Github Actions and
 ## Installation
 
 ```bash
-composer require secondnetwork/blade-tabler-icons
+composer require neazk/blade-tabler-icons
 ```
 
 ## Blade Icons
@@ -86,7 +86,7 @@ Then use them in your views like:
 
 ## Maintainers
 
-Blade tabler-icons is developed and maintained by secondnetwork.
+Blade tabler-icons is developed and maintained by neazk.
 
 ## License
 

@@ -6,7 +6,7 @@ namespace Tests;
 
 use Orchestra\Testbench\TestCase;
 use BladeUI\Icons\BladeIconsServiceProvider;
-use secondnetwork\TablerIcons\BladeTablerIconsServiceProvider;
+use neazk\TablerIcons\BladeTablerIconsServiceProvider;
 
 class CompilesIconsTest extends TestCase
 {
